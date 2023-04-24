@@ -17,10 +17,11 @@ namespace LineComparision
             this.y_Two = y_Two;
         }
 
-        public void LengthLine()
+        public double LengthLine()
         {
             double Line = Math.Sqrt(Math.Pow(x_Two - x_One, 2) + Math.Pow(y_Two - y_One, 2));
             Console.WriteLine("Line Length is {0}", Line);
+            return Line;
         }
 
     }
