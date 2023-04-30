@@ -11,7 +11,9 @@ namespace LineComparision
             CalculateLine obj_two = new CalculateLine(20, 40, 60, 80);
             double Line_Two = obj_two.LengthLine();
 
-            if (Line_one.Equals(Line_Two))
+
+            if(Line_one.Equals(Line_Two))
+
             {
                 Console.WriteLine("Both the Line are Equal");
             }
@@ -19,6 +21,7 @@ namespace LineComparision
             {
                 Console.WriteLine("NOT Equal");
             }
+
 
             if(Line_one.CompareTo(Line_Two)==0)
             {
@@ -32,6 +35,7 @@ namespace LineComparision
             {
                 Console.WriteLine("Line Two is greater than line One");
             }
+
         }
     }
 }

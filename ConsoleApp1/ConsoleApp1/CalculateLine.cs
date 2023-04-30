@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace LineComparision
 {
-    namespace LineComparision
-    {
+    
         public class CalculateLine
         {
             double x_One, y_One, x_Two, y_Two;
@@ -19,15 +18,16 @@ namespace LineComparision
                 this.y_Two = y_Two;
             }
 
-            public double LengthLine()
-            {
-                double Line = Math.Sqrt(Math.Pow(x_Two - x_One, 2) + Math.Pow(y_Two - y_One, 2));
-                Console.WriteLine("Line Length is {0}", Line);
-                return Line;
-            }
+          public double LengthLine()
+          {
+              double Line = Math.Sqrt(Math.Pow(x_Two - x_One, 2) + Math.Pow(y_Two - y_One, 2));
+              Console.WriteLine("Line Length is {0}", Line);
+              return Line;
+          }
+
 
         }
-    }
+    
 
    
 }
