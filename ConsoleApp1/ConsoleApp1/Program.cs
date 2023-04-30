@@ -20,7 +20,6 @@ namespace LineComparision
                 Console.WriteLine("NOT Equal");
             }
 
-
             if(Line_one.CompareTo(Line_Two)==0)
             {
                 Console.WriteLine("Both Line are Equal");
